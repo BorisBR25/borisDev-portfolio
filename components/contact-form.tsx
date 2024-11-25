@@ -1,4 +1,4 @@
-import MotionTransition from "./transition-component"
+
 import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
@@ -11,7 +11,7 @@ const ContactForm = () => {
     formState: {errors}
   }  = useForm();
 
-  const onSubmit = async (e: any) => {
+  const onSubmit = async (e) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
