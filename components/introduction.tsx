@@ -28,7 +28,7 @@ const Introduction = () => {
             />
           </h1>
           <p className='mx-auto mb-2 text-xl md:mx-0 md:mb-8 lg:text-2xl'>
-          ¡Hola! Soy Boris, desarrollador de software junior, con experiencia en backend adquirida en mis practicas, creando soluciones sólidas y escalables para aplicaciones web.
+          ¡Hola! Soy Boris, desarrollador de software junior, con experiencia en backend, creando soluciones sólidas y escalables para aplicaciones web.
           Me apasiona optimizar procesos, diseñar arquitecturas eficientes y colaborar en proyectos que integren frontend y backend para ofrecer experiencias completas. ¡Bienvenido a mi portafolio!
           </p>
           <div className='flex items-center justify-center gap-3 '>
